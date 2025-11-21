@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 
 class LatihanCard extends StatelessWidget {
@@ -82,45 +80,21 @@ class LatihanCard extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   const Text(
-                    'Berita Terkini',
+                    'Latest News',
                     style: TextStyle(
                       fontSize: 20.0,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                   SizedBox(height: 5),
-                  Text('an enthusiast in information technology (Digital Sign , Blockchain, et with more than 20 years of experiences in the payment industry',
+                  Text('My name is regina Safarina, My hobby is cooking, and I really enjoy learning Spanish',
                   style: TextStyle(fontSize: 12.0),
                   textAlign: TextAlign.justify,
                   ),
-                  
-                  
                 ],
               ),
               ),
-            )
-
-
-
-
-
-
-
-
-
-
-
-
-            // Container(
-            //   decoration: BoxDecoration(
-            //     color: Colors.yellow,
-            //     borderRadius: BorderRadius.circular(16),
-            //     boxShadow: [
-            //       BoxShadow(color: Colors.black26, blurRadius: 10, offset: Offset(0, 4))
-            //     ],
-            //   ),
-            //   child: Text("Tinggi bayangan Shadow", style: TextStyle(fontSize: 12.0)),
-            // ),
+            ),
           ],
 
         ),
