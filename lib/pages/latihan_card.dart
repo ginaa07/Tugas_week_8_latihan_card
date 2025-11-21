@@ -103,14 +103,14 @@ class LatihanCard extends StatelessWidget {
               child: Container(
                 decoration: const BoxDecoration(
                   gradient: LinearGradient(
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
+                    begin: Alignment.topRight,
+                    end: Alignment.bottomLeft,
                     colors: [Colors.yellow, Colors.red],
                   ),
                 ),
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Row(
+                  child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Container(
@@ -125,28 +125,41 @@ class LatihanCard extends StatelessWidget {
                         ],
                         ),
                         child: CircleAvatar(
-                          radius: 60,
+                          radius: 40,
                           backgroundImage: AssetImage("assets/image/imagesui.png"),
                         ),
                       ),
                       SizedBox(height: 10),
-                      //text Name
                       Text(
-                        "Regina Safarina",
+                        "Regina Safarinaa",
                         style: TextStyle(
                           fontSize: 26.0,
                           fontWeight: FontWeight.bold,
                           color: Colors.white,
                         ),
                       ),
-                  
+                      SizedBox(height: 10),
+                          Container(
+                            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+                            decoration: BoxDecoration(
+                              color: Colors.blue,
+                              borderRadius: BorderRadius.circular(20),
+                            ),
+                            child: const Text(
+                              'Mobile Apps Engineer',
+                              style: TextStyle(
+                                fontSize: 16,
+                                color: Colors.white,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                          ),
                     ],
-                  ),
+                  )
                 ),
-                ),
-                ),
+              ),
+            ),
           ],
-
         ),
       ),
     );
