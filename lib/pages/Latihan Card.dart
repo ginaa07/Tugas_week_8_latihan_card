@@ -117,7 +117,7 @@ class LatihanCard extends StatelessWidget {
                       border: Border.all(color: Colors.green)
                     ),
                     child: CircleAvatar(
-                      backgroundImage: AssetImage("assets/images/"),
+                      backgroundImage: AssetImage("assets/images/imagesui.png"),
                     ),
                   ),
                   SizedBox(height:  5),
