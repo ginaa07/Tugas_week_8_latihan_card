@@ -108,40 +108,9 @@ class LatihanCard extends StatelessWidget {
                     colors: [Colors.yellow, Colors.red],
                   ),
                 ),
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Column(  
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          //Todo
-                          //container dengan circle
-                          Container(
-                            decoration: BoxDecoration(
-                              shape: BoxShape.circle,
-                            ),
-                            child: CircleAvatar(
-                              backgroundImage: AssetImage("assets/images/imagesui.png"),
-                            ),
-                          ),
-                          SizedBox(height: 10),
-                          Text(
-                            "Mobile Apps Engineer",
-                            style: TextStyle(
-                              fontSize: 20.0,
-                              fontWeight: FontWeight.bold,
-                              color: Colors.black,
-                            ),
-                          )
-                        ],
-                        ),
-                      ),
-                    ],
-                  ),
-                )           
+                child: Text("text",
+                style: TextStyle(fontSize: 20.0),
+                ),
                 ),
                 ),
           ],
