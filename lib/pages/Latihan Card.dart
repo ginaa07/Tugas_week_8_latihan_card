@@ -109,6 +109,7 @@ class LatihanCard extends StatelessWidget {
                   ),
                 ),
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
                       decoration: BoxDecoration(shape: BoxShape.circle),
@@ -116,7 +117,8 @@ class LatihanCard extends StatelessWidget {
                         radius: 60,
                         backgroundImage: AssetImage("assets/images/imagesui.png"),
                       ),
-                    )
+                    ),
+
                   ],
                 ),
                 ),
