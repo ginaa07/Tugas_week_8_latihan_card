@@ -107,7 +107,11 @@ class LatihanCard extends StatelessWidget {
                     colors: [Colors.yellow, Colors.red],
                   ),
                 ),
-                
+                child: Text("ini uji coba",
+                style: TextStyle(
+                  fontSize: 20.0
+                ),
+                ),
               ),
             )
           ],
