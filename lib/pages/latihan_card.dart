@@ -160,7 +160,6 @@ class LatihanCard extends StatelessWidget {
                         // Buat Row dengan 3 Row
                         Row(
                           children: [
-                            //Column 1 isi dg 2 Row 100 & isi Follower
                             Column(
                               children: [
                                 Text(
@@ -171,16 +170,24 @@ class LatihanCard extends StatelessWidget {
                                     color: Colors.white,
                                   ),
                                 ),
-                                
+                                SizedBox(height: 5),
+                                  Text(
+                                    "Experience",
+                                    style: TextStyle(
+                                      fontSize: 14.0,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white.withValues(alpha: 0.5),
+                                    ),
+                                  ),
+                                ],
+                              ),
                               ],
                             ),
                           ],
-                        ),
-                      ],
+                        ),       
                     ),
                   ),
                 ),
-              ),
             ],
           ),
         ),
