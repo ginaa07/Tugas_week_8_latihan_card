@@ -40,7 +40,7 @@ class LatihanCard extends StatelessWidget {
                   ),
                 ),
               ),
-          
+
               SizedBox(height: 12),
               Container(
                 padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
@@ -60,7 +60,10 @@ class LatihanCard extends StatelessWidget {
                 ),
                 elevation: 8,
                 color: Colors.yellow,
-                child: Text("Bingkai Panjang", style: TextStyle(fontSize: 12.0)),
+                child: Text(
+                  "Bingkai Panjang",
+                  style: TextStyle(fontSize: 12.0),
+                ),
               ),
               SizedBox(height: 10),
               Card(
@@ -102,7 +105,7 @@ class LatihanCard extends StatelessWidget {
                   ),
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
-          
+
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -154,29 +157,21 @@ class LatihanCard extends StatelessWidget {
                           ),
                         ),
                         SizedBox(height: 10),
-                        // Row dengan 3 Row
+                        // Buat Row dengan 3 Row
                         Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
+                            //Column 1 isi dg 2 Row 100 & isi Follower
                             Column(
                               children: [
                                 Text(
                                   "25 year",
                                   style: TextStyle(
-                                    fontSize: 11.0,
+                                    fontSize: 22.0,
                                     fontWeight: FontWeight.bold,
                                     color: Colors.white,
                                   ),
                                 ),
-                                SizedBox(height: 5),
-                                Text(
-                                  "Experience",
-                                  style: TextStyle(
-                                    fontSize: 14.0,
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.white.withValues(alpha: 0.5),
-                                  ),
-                                ),
+                                
                               ],
                             ),
                           ],
