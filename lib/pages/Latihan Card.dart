@@ -95,6 +95,21 @@ class LatihanCard extends StatelessWidget {
               ),
               ),
             ),
+            SizedBox(height: 10),
+            Card(
+              elevation: 8,
+              shadowColor: Colors.blue,
+              child: Container(
+                decoration: const BoxDecoration(
+                  gradient: LinearGradient(
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
+                    colors: [Colors.yellow, Colors.red],
+                  ),
+                ),
+                
+              ),
+            )
           ],
 
         ),
