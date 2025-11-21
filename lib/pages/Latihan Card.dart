@@ -112,29 +112,32 @@ class LatihanCard extends StatelessWidget {
                   padding: const EdgeInsets.all(8.0),
                   child: Column(  
                     children: [
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        //Todo
-                        //container dengan circle
-                        Container(
-                          decoration: BoxDecoration(
-                            shape: BoxShape.circle,
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          //Todo
+                          //container dengan circle
+                          Container(
+                            decoration: BoxDecoration(
+                              shape: BoxShape.circle,
+                            ),
+                            child: CircleAvatar(
+                              backgroundImage: AssetImage("assets/images/imagesui.png"),
+                            ),
                           ),
-                          child: CircleAvatar(
-                            backgroundImage: AssetImage("assets/images/imagesui.png"),
-                          ),
+                          SizedBox(height: 10),
+                          Text(
+                            "Mobile Apps Engineer",
+                            style: TextStyle(
+                              fontSize: 20.0,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black,
+                            ),
+                          )
+                        ],
                         ),
-                        SizedBox(height: 10),
-                        Text(
-                          "Mobile Apps Engineer",
-                          style: TextStyle(
-                            fontSize: 20.0,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.black,
-                          ),
-                        )
-                      ],
                       ),
                     ],
                   ),
