@@ -110,28 +110,33 @@ class LatihanCard extends StatelessWidget {
                 ),
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Row(
-                  children: [
-                    //Todo
-                    //container dengan circle
-                    Container(
-                      decoration: BoxDecoration(
-                        shape: BoxShape.circle,
+                  child: Column(  
+                    children: [
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        //Todo
+                        //container dengan circle
+                        Container(
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                          ),
+                          child: CircleAvatar(
+                            backgroundImage: AssetImage("assets/images/imagesui.png"),
+                          ),
+                        ),
+                        SizedBox(height: 10),
+                        Text(
+                          "Mobile Apps Engineer",
+                          style: TextStyle(
+                            fontSize: 20.0,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.black,
+                          ),
+                        )
+                      ],
                       ),
-                      child: CircleAvatar(
-                        backgroundImage: AssetImage("assets/images/imagesui.png"),
-                      ),
-                    ),
-                    SizedBox(height: 10),
-                    Text(
-                      "Mobile Apps Engineer",
-                      style: TextStyle(
-                        fontSize: 20.0,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black,
-                      ),
-                    )
-                  ],
+                    ],
                   ),
                 )           
                 ),
