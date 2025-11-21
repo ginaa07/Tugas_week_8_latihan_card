@@ -211,8 +211,15 @@ class LatihanCard extends StatelessWidget {
                                 ),
                               ],
                             ),
+                            SizedBox(
+                              height: 40,
+                              child: VerticalDivider(
+                                thickness: 1,
+                                color: Colors.black,
+                                width: 1,
+                              ),
+                            ),
                             Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
                                 Column(
                                   children: [
@@ -224,7 +231,20 @@ class LatihanCard extends StatelessWidget {
                                         color: Colors.white,
                                       ),
                                     ),
-                                    
+                                    SizedBox(height: 5),
+                                    Text(
+                                      "Experience",
+                                      style: TextStyle(
+                                        fontSize: 14.0,
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.white.withValues(
+                                          alpha: 0.5,
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                
                               ],
                             ),
                           ],
