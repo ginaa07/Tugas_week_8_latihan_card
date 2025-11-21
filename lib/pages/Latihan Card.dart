@@ -117,13 +117,13 @@ class LatihanCard extends StatelessWidget {
                       border: Border.all(color: Colors.green)
                     ),
                     child: CircleAvatar(
-                      backgroundImage: AssetImage("assets/images/imagesui.png"),
+                      backgroundImage: AssetImage("assets/images/"),
                     ),
                   ),
                   SizedBox(height:  5),
                   Text("text",
                   style: TextStyle(
-                    fontSize: 20.0,
+                    fontSize: 20,
                     fontWeight: FontWeight.bold
                   ),
                   ),
