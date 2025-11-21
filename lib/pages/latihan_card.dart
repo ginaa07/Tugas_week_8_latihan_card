@@ -171,39 +171,52 @@ class LatihanCard extends StatelessWidget {
                                   ),
                                 ),
                                 SizedBox(height: 5),
-                                  Text(
-                                    "Experience",
-                                    style: TextStyle(
-                                      fontSize: 14.0,
-                                      fontWeight: FontWeight.bold,
-                                      color: Colors.white.withValues(alpha: 0.5),
-                                    ),
+                                Text(
+                                  "Experience",
+                                  style: TextStyle(
+                                    fontSize: 14.0,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white.withValues(alpha: 0.5),
                                   ),
-                                ],
+                                ),
+                              ],
+                            ),
+                            SizedBox(
+                              height: 40,
+                              child: VerticalDivider(
+                                thickness: 1,
+                                color: Colors.black,
+                                width: 1,
                               ),
-                              SizedBox(
-                                height: 40,
-                                child: VerticalDivider(thickness: 1, color: Colors.black, width: 1),
-                              ),
-                              Column(
-                                children: [
-                                  Text(
-                                    "25 year",
-                                    style: TextStyle(
-                                      fontSize: 22.0,
-                                      fontWeight: FontWeight.bold,
-                                      color: Colors.white,
-                                    ),
-                                  )
-                                ],
-                              )
+                            ),
+                            Column(
+                              children: [
+                                Text(
+                                  "25 year",
+                                  style: TextStyle(
+                                    fontSize: 22.0,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                                SizedBox(height: 5),
+                                Text(
+                                  "Experience",
+                                  style: TextStyle(
+                                    fontSize: 14.0,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white.withValues(alpha: 0.5),
+                                  ),
+                                ),
                               ],
                             ),
                           ],
-                        ),       
+                        ),
+                      ],
                     ),
                   ),
                 ),
+              ),
             ],
           ),
         ),
