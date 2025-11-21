@@ -108,8 +108,16 @@ class LatihanCard extends StatelessWidget {
                     colors: [Colors.yellow, Colors.red],
                   ),
                 ),
-                child: Text("text",
-                style: TextStyle(fontSize: 20.0),
+                child: Row(
+                  children: [
+                    Container(
+                      decoration: BoxDecoration(shape: BoxShape.circle),
+                      child: CircleAvatar(
+                        radius: 60,
+                        backgroundImage: AssetImage("assets/images/imagesui.png"),
+                      ),
+                    )
+                  ],
                 ),
                 ),
                 ),
