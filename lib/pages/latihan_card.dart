@@ -150,7 +150,7 @@ class LatihanCard extends StatelessWidget {
                           child: const Text(
                             'Mobile Apps Engineer',
                             style: TextStyle(
-                              fontSize: 10,
+                              fontSize: 16.0,
                               color: Colors.white,
                               fontWeight: FontWeight.w500,
                             ),
@@ -209,6 +209,22 @@ class LatihanCard extends StatelessWidget {
                                     color: Colors.white.withValues(alpha: 0.5),
                                   ),
                                 ),
+                              ],
+                            ),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children: [
+                                Column(
+                                  children: [
+                                    Text(
+                                      "25 year",
+                                      style: TextStyle(
+                                        fontSize: 22.0,
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                    
                               ],
                             ),
                           ],
