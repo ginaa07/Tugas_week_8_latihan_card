@@ -98,6 +98,7 @@ class LatihanCard extends StatelessWidget {
             SizedBox(height: 10),
             Card(
               elevation: 8,
+              clipBehavior: Clip.antiAlias,
               shadowColor: Colors.blue,
               child: Container(
                 decoration: const BoxDecoration(
@@ -107,29 +108,31 @@ class LatihanCard extends StatelessWidget {
                     colors: [Colors.yellow, Colors.red],
                   ),
                 ),
-                child: Row(
-                children: [
-                  //Todo
-                  //container dengan circle
-                  Container(
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      border: Border.all(color: Colors.green)
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                  children: [
+                    //Todo
+                    //container dengan circle
+                    Container(
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                      ),
+                      child: CircleAvatar(
+                        backgroundImage: AssetImage("assets/images/imagesui.png"),
+                      ),
                     ),
-                    child: CircleAvatar(
-                      backgroundImage: AssetImage("assets/images/imagesui.png"),
-                    ),
+                    SizedBox(height: 10),
+                    Text(
+                      "Mobile Apps Engineer",
+                      style: TextStyle(
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black,
+                      ),
+                    )
+                  ],
                   ),
-                  SizedBox(height:  5),
-                  Text("text",
-                  style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold
-                  ),
-                  ),
-                  
-
-                ],
                 )           
                 ),
                 ),
