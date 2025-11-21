@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:latihan_card_week8/pages/Latihan%20Card.dart';
+import 'package:latihan_card_week8/pages/latihan_card.dart';
 
 void main(){
   runApp(MyApp());

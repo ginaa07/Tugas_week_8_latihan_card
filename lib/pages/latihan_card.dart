@@ -114,11 +114,19 @@ class LatihanCard extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Container(
-                        decoration: BoxDecoration(shape: BoxShape.circle, border: Border.all(color: Colors.white,width: 4)),
-                        
+                        decoration: BoxDecoration(shape: BoxShape.circle, 
+                        border: Border.all(color: Colors.white,width: 4),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withValues(alpha: 0.2),
+                            blurRadius: 10,
+                            offset: Offset(0, 5),
+                          ),
+                        ],
+                        ),
                         child: CircleAvatar(
                           radius: 60,
-                          backgroundImage: AssetImage("assets/images/imagesui.png"),
+                          backgroundImage: AssetImage("assets/image/imagesui.png"),
                         ),
                       ),
                       SizedBox(height: 10),
