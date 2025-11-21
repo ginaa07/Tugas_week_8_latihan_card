@@ -114,10 +114,21 @@ class LatihanCard extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Container(
-                        decoration: BoxDecoration(shape: BoxShape.circle),
+                        decoration: BoxDecoration(shape: BoxShape.circle, border: Border.all(color: Colors.white,width: 4)),
+                        
                         child: CircleAvatar(
                           radius: 60,
                           backgroundImage: AssetImage("assets/images/imagesui.png"),
+                        ),
+                      ),
+                      SizedBox(height: 10),
+                      //text Name
+                      Text(
+                        "Regina Safarina",
+                        style: TextStyle(
+                          fontSize: 26.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
                         ),
                       ),
                   
