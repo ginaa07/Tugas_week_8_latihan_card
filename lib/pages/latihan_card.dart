@@ -181,6 +181,22 @@ class LatihanCard extends StatelessWidget {
                                   ),
                                 ],
                               ),
+                              SizedBox(
+                                height: 40,
+                                child: VerticalDivider(thickness: 1, color: Colors.black, width: 1),
+                              ),
+                              Column(
+                                children: [
+                                  Text(
+                                    "25 year",
+                                    style: TextStyle(
+                                      fontSize: 22.0,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white,
+                                    ),
+                                  )
+                                ],
+                              )
                               ],
                             ),
                           ],
