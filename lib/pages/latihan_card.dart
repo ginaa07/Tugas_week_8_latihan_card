@@ -159,6 +159,7 @@ class LatihanCard extends StatelessWidget {
                         SizedBox(height: 10),
                         // Buat Row dengan 3 Row
                         Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
                             Column(
                               children: [
