@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 
 class LatihanCard extends StatelessWidget {
@@ -62,6 +64,14 @@ class LatihanCard extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 8),
+            Card(
+              elevation: 8,
+              color: Colors.yellow,
+              child: Text("Tinggi bayangan Shadow", style: TextStyle(fontSize: 12.0)),
+              
+            )
+            )
 
           ],
         ),
