@@ -137,6 +137,17 @@ class LatihanCard extends StatelessWidget {
                   style: TextStyle(fontSize: 14.0),
                 ),
               ),
+              SizedBox(height: 20.0),
+              Card(
+                semanticContainer: true,
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    "Semantic true",
+                    style: TextStyle(fontSize: 14.0),
+                  ),
+                ),
+              ),
               SizedBox(height: 10),
               Card(
                 elevation: 8,
