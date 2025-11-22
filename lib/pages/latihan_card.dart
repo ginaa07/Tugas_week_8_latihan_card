@@ -65,6 +65,14 @@ class LatihanCard extends StatelessWidget {
                   style: TextStyle(fontSize: 12.0),
                 ),
               ),
+              SizedBox(height: 20),
+              Card(
+                elevation: 8,
+                color: Colors.yellow,
+                child: Text("Tinggi bayangan shadow",
+                style: TextStyle(fontSize:12.0),
+                ),
+              ),
               SizedBox(height: 10),
               Card(
                 elevation: 8,
@@ -244,7 +252,6 @@ class LatihanCard extends StatelessWidget {
                                     ),
                                   ],
                                 ),
-                                
                               ],
                             ),
                           ],
