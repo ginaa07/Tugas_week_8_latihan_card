@@ -144,7 +144,7 @@ class LatihanCard extends StatelessWidget {
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
                     "Semantic True",
-                    style: TextStyle(fontSize: 14.0),
+                    style: TextStyle(fontSize: 15.0),
                   ),
                 ),
               ),
@@ -335,6 +335,20 @@ class LatihanCard extends StatelessWidget {
                   ),
                 ),
               ),
+              Card(
+                elevation: 5.0,
+                margin: EdgeInsets.all(16.0),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    ListTile(
+                      leading: Icon(Icons.install_desktop_rounded, size: 50),
+                      title: Text('Belum ada Judul'),
+                      subtitle: Text('sebuah judul lagu dari iwan fals'),
+                    ),
+                  ],
+                ),
+              )
             ],
           ),
         ),
