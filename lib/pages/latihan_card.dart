@@ -6,7 +6,7 @@ class LatihanCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white, 
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text("Dashboard"),
         centerTitle: true,
@@ -69,8 +69,9 @@ class LatihanCard extends StatelessWidget {
               Card(
                 elevation: 8, //tinggi bayangan
                 color: Colors.yellow,
-                child: Text("Tinggi bayangan shadow",
-                style: TextStyle(fontSize:12.0),
+                child: Text(
+                  "Tinggi bayangan shadow",
+                  style: TextStyle(fontSize: 12.0),
                 ),
               ),
               SizedBox(height: 20.0),
@@ -81,15 +82,31 @@ class LatihanCard extends StatelessWidget {
                   borderRadius: BorderRadius.circular(16),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.black26, blurRadius: 10,
+                      color: Colors.black26,
+                      blurRadius: 10,
                       offset: Offset(0, 4),
                     ),
                   ],
                 ),
                 child: Text(
-                  "Tinggi bayangan Shadow", style: TextStyle(fontSize: 12.0),
+                  "Tinggi bayangan Shadow",
+                  style: TextStyle(fontSize: 12.0),
                 ),
               ),
+              SizedBox(height: 20.0),
+              Card(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(15.0),
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    "Shape bingkai persegi panjang",
+                    style: TextStyle(fontSize: 12.0),
+                  ),
+                ),
+              ),
+
               SizedBox(height: 10),
               Card(
                 elevation: 8,
