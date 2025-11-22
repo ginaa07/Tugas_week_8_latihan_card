@@ -137,7 +137,7 @@ class LatihanCard extends StatelessWidget {
                   style: TextStyle(fontSize: 14.0),
                 ),
               ),
-              SizedBox(height: 20.0),
+              SizedBox(height: 20.0), //properties "semanticContainer"
               Card(
                 semanticContainer: true,
                 child: Padding(
