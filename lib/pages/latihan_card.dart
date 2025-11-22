@@ -75,6 +75,7 @@ class LatihanCard extends StatelessWidget {
               ),
               SizedBox(height: 20.0),
               Container(
+                padding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
                 decoration: BoxDecoration(
                   color: Colors.yellow,
                   borderRadius: BorderRadius.circular(16),
