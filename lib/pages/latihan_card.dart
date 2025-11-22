@@ -106,7 +106,14 @@ class LatihanCard extends StatelessWidget {
                   ),
                 ),
               ),
-
+              Card(
+                margin: EdgeInsets.all(16.0),
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text("Margin Card", style: TextStyle(fontSize: 10.0)
+                  ),
+                ),
+              ),
               SizedBox(height: 10),
               Card(
                 elevation: 8,
