@@ -346,6 +346,13 @@ class LatihanCard extends StatelessWidget {
                       title: Text('Belum ada Judul'),
                       subtitle: Text('sebuah judul lagu dari iwan fals'),
                     ),
+                    Padding(
+                      padding: EdgeInsets.all(16.0),
+                      child: Text(
+                        'Card dapat di isi berbagai widget seperti text,'
+                        'image, button, dan lainnya.',
+                      ),
+                      ),
                   ],
                 ),
               )
