@@ -110,8 +110,7 @@ class LatihanCard extends StatelessWidget {
                 margin: EdgeInsets.all(16.0),
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Text("Margin Card", style: TextStyle(fontSize: 10.0)
-                  ),
+                  child: Text("Margin Card", style: TextStyle(fontSize: 10.0)),
                 ),
               ),
               Card(
@@ -119,7 +118,24 @@ class LatihanCard extends StatelessWidget {
                   borderRadius: BorderRadius.circular(16),
                   side: BorderSide(color: Colors.red, width: 2),
                 ),
-                
+                borderOnForeground: true, //false
+                child: Text(
+                  "Border tidak menimpa Konten",
+                  style: TextStyle(fontSize: 10.0),
+                ),
+                //child: Padding(
+                // Padding:EdgeInsets.all(8),
+                // child: Text("Border tidak menimpa konten"),
+                // style:TrxtStyle(fontsize: 10.0),
+                // ),
+              ),
+              SizedBox(height: 20.0),
+              Card(
+                clipBehavior: Clip.antiAlias,
+                child: Text(
+                  "Anti Alias clip Card",
+                  style: TextStyle(fontSize: 14.0),
+                ),
               ),
               SizedBox(height: 10),
               Card(
