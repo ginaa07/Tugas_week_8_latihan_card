@@ -6,7 +6,7 @@ class LatihanCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white, // warna background soft pink
+      backgroundColor: Colors.white, 
       appBar: AppBar(
         title: Text("Dashboard"),
         centerTitle: true,
@@ -82,7 +82,7 @@ class LatihanCard extends StatelessWidget {
                       ),
                       SizedBox(height: 5),
                       Text(
-                        'My name is regina Safarina, My hobby is cooking, and I really enjoy learning Spanish',
+                        'My name is regina Safarina, My hobby is cooking, and I really enjoy learning Spanish, I really love eating pancakes, strawberries, and donuts made by my mom.',
                         style: TextStyle(fontSize: 12.0),
                         textAlign: TextAlign.justify,
                       ),
