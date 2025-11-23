@@ -362,9 +362,16 @@ class LatihanCard extends StatelessWidget {
                 margin: EdgeInsets.zero,
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                 child: Padding(
-                  padding: const EdgeInsets.all(12.0),
+                  padding: const EdgeInsets.all(20.0), //memberi jarak bagian dalam isi card 
                   child: Row(
-                    
+                  children: [
+                    Container(
+                      padding: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                        color: const Color(0xFF1F3C66), //buat dasar warna Card
+                      ),
+                    )
+                  ], 
                   ),),
               )
             ],
