@@ -15,7 +15,7 @@ class LatihanCard extends StatelessWidget {
         foregroundColor: Colors.black,
       ),
 
-      body: SingleChildScrollView(
+      body: SingleChildScrollView( //membuat tampilan panjang bisa discroll ke bawah
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Column(
@@ -352,9 +352,20 @@ class LatihanCard extends StatelessWidget {
                         'Card dapat di isi berbagai widget seperti text,'
                         'image, button, dan lainnya.',
                       ),
-                      ),
+                    ),
                   ],
                 ),
+              ),
+              SizedBox(height: 10), //buat Logo Master card
+              Card(
+                elevation: 2, //ketinggian bayangan
+                margin: EdgeInsets.zero,
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                child: Padding(
+                  padding: const EdgeInsets.all(12.0),
+                  child: Row(
+                    
+                  ),),
               )
             ],
           ),
