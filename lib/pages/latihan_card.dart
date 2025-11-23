@@ -366,12 +366,12 @@ class LatihanCard extends StatelessWidget {
                   child: Row(
                   children: [
                     Container(
-                      padding: const EdgeInsets.all(12),
+                      padding: const EdgeInsets.all(20),
                       decoration: BoxDecoration(
                         color: const Color(0xFF1F3C66), //buat dasar warna Card
-                        borderRadius: BorderRadius.circular(12),
+                        borderRadius: BorderRadius.circular(25),
                       ),
-                      
+                      child: Icon(Icons.credit_card, color: Colors.white70, size: 32),
                     )
                   ], 
                   ),),
