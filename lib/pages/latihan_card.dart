@@ -358,13 +358,12 @@ class LatihanCard extends StatelessWidget {
               ),
               SizedBox(height: 10), //buat Logo Master card
               Container(
-                padding: const EdgeInsets.all(20),
+                padding: const EdgeInsets.all(20.0),
                 child: Column(
                   children: [
-                    Padding(padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
-                    child: Card(
-                      elevation: 8,
-                    ),)
+                    Padding(padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20), //memberikan jarak untuk kanan kiri terhadap widget
+                    
+                    )
                   ],
                 ),
               )
