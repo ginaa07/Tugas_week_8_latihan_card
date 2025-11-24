@@ -388,7 +388,7 @@ class LatihanCard extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Row(
-                                mainAxisAlignment: MainAxisAlignment.spaceBetween, //buat space beetween di kiri dan kanan secara otomatis
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween, //buat space beetween di kiri dan kanan 
                                 children: [ 
                                   Icon(Icons.credit_card, color: Colors.white70, size: 32), //Chip Icon
                                   Icon(Icons.contactless, color: Colors.white54, size: 32), //ini untuk icon Contactless
@@ -399,8 +399,19 @@ class LatihanCard extends StatelessWidget {
                               TextStyle(
                                 color: Colors.white, fontSize: 22, fontWeight: FontWeight.w500,
                                 letterSpacing: 4, //ruang tambahan 4 pixel untuk setiap angka
-                              ),),
-                              
+                              ),
+                              ),
+                              SizedBox(height: 20),
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween, //buat space beetween di kiri dan kanan 
+                                children: [
+                                  Text('Regina Safarina',
+                                  style: TextStyle(
+                                    color: Colors.white, fontSize: 18, fontWeight: FontWeight.w500,
+                                  ),
+                                  ),
+                                ],
+                              )
                             ],
                           ),
                         ),
