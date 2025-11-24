@@ -398,6 +398,7 @@ class LatihanCard extends StatelessWidget {
                               Text("4562 1122 4595 7852", style: 
                               TextStyle(
                                 color: Colors.white, fontSize: 22, fontWeight: FontWeight.w500,
+                                letterSpacing: 4, //ruang tambahan 4 pixel untuk setiap huruff
                               ),),
                               
                             ],
