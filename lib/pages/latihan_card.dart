@@ -442,6 +442,11 @@ class LatihanCard extends StatelessWidget {
                                     Text('Expire Date',
                                     style: TextStyle(color: Colors.white70, fontSize: 11),
                                     ),
+                                    Text('24/2000', //menampilkan teks tanggal
+                                    style: TextStyle( 
+                                      color: Colors.white, fontSize: 14, fontWeight: FontWeight.w500, 
+                                    ),
+                                    ),
                                   ],
                                   ),
                                 ],
