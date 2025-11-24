@@ -388,12 +388,17 @@ class LatihanCard extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Row(
-                                mainAxisAlignment: MainAxisAlignment.spaceBetween, //buat memisahkan widget di kiri dan kanan secara otomatis
-                                children: [
-                                  Icon(Icons.credit_card, color: Colors.white70, size: 32), //untuk icon pertama
-                                  Icon(Icons.contactless, color: Colors.white70, size: 32), //ini untuk icon kedua di sebelah kanan 
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween, //buat space beetween di kiri dan kanan secara otomatis
+                                children: [ 
+                                  Icon(Icons.credit_card, color: Colors.white70, size: 32), //Chip Icon
+                                  Icon(Icons.contactless, color: Colors.white54, size: 32), //ini untuk icon Contactless
                                 ],
                               ),
+                              SizedBox(height: 25), 
+                              Text("4562 1122 4595 7852", style: 
+                              TextStyle(
+                                color: Colors.white, fontSize: 22, fontWeight: FontWeight.w500,
+                              ),),
                               
                             ],
                           ),
