@@ -421,6 +421,15 @@ class LatihanCard extends StatelessWidget {
                                           shape: BoxShape.circle,
                                         ),
                                       ),
+                                      Container(
+                                        margin: EdgeInsets.only(left: 15),
+                                        width: 30,
+                                        height: 30,
+                                        decoration: BoxDecoration(
+                                          color: Color(0xFFF79E1B),
+                                          shape: BoxShape.circle,
+                                        ),
+                                      )
                                     ],
                                   )
                                 ],
