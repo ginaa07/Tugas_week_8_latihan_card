@@ -447,8 +447,16 @@ class LatihanCard extends StatelessWidget {
                                       color: Colors.white, fontSize: 14, fontWeight: FontWeight.w500, 
                                     ),
                                     ),
-                                  ],
+                                    ],
                                   ),
+                                  SizedBox(width: 30),
+                                  Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      Text('CVV', style: TextStyle(color: Colors.white70, fontSize: 10)),
+                                      
+                                    ],
+                                  )
                                 ],
                               )
                             ],
