@@ -410,6 +410,19 @@ class LatihanCard extends StatelessWidget {
                                     color: Colors.white, fontSize: 18, fontWeight: FontWeight.w500,
                                   ),
                                   ),
+                                  //MasterCard Logo
+                                  Stack(
+                                    children: [
+                                      Container(
+                                        width: 30,
+                                        height: 30,
+                                        decoration: const BoxDecoration(
+                                          color: Color(0xFFEB001B), 
+                                          shape: BoxShape.circle,
+                                        ),
+                                      ),
+                                    ],
+                                  )
                                 ],
                               )
                             ],
