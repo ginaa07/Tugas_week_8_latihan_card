@@ -384,6 +384,14 @@ class LatihanCard extends StatelessWidget {
                             ),
                             borderRadius: BorderRadius.circular(20), //membuar radius sudut 20 pixel pada pojok container
                           ),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween, //buat memisahkan widget di kiri dan kanan secara otomatis
+                              )
+                            ],
+                          ),
                         ),
                       ),
                     ),
