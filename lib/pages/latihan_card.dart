@@ -15,7 +15,8 @@ class LatihanCard extends StatelessWidget {
         foregroundColor: Colors.black,
       ),
 
-      body: SingleChildScrollView( //membuat tampilan panjang bisa discroll ke bawah
+      body: SingleChildScrollView(
+        //membuat tampilan panjang bisa discroll ke bawah
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Column(
@@ -361,16 +362,33 @@ class LatihanCard extends StatelessWidget {
                 padding: const EdgeInsets.all(20.0),
                 child: Column(
                   children: [
-                    Padding(padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20), //memberikan jarak untuk kanan kiri terhadap widget
-                    child: Card(
-                      elevation: 8,
-                      shadowColor: Colors.black38,
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 20,
+                        vertical: 20,
+                      ), //memberikan jarak untuk kanan kiri terhadap widget
+                      child: Card(
+                        elevation: 8,
+                        shadowColor: Colors.black38,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        child: Container(
+                          width: double.infinity,
+                          padding: const EdgeInsets.all(22), //memberi jarak didalam container pada semua sisi
+                          decoration: BoxDecoration(
+                            gradient: const LinearGradient( //membuat gradasi warna
+                              begin: Alignment.topLeft, //gradasi dari pojok kiri atas
+                              end: Alignment.bottomRight, //gradasi dari pojok kanan bawah
+                              colors: [Color(0xFF1E3A5F), Color(0xFF2D4A6F)], //buat baground gradasi untuk 2 warna
+                            ),
+                          ),
+                        ),
+                      ),
                     ),
-                    )
                   ],
                 ),
-              )
+              ),
             ],
           ),
         ),
