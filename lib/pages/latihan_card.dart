@@ -166,7 +166,7 @@ class LatihanCard extends StatelessWidget {
                       ),
                       SizedBox(height: 5),
                       Text(
-                        'My name is regina Safarina, My hobby is cooking, and I really enjoy learning Spanish, I really love eating pancakes, strawberries, and donuts made by my mom.',
+                        'My Name is Regina Safarina, My hobby is cooking, and I really enjoy learning Spanish, I really love eating pancakes, strawberries, and donuts made by my mom. Pretty and smart? Definitely an engineering student.',
                         style: TextStyle(fontSize: 12.0),
                         textAlign: TextAlign.justify,
                       ),
@@ -405,12 +405,12 @@ class LatihanCard extends StatelessWidget {
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.spaceBetween, //buat space beetween di kiri dan kanan 
                                 children: [
-                                  Text('Regina Safarina',
+                                  Text('Regina Safarina', //nama pemilik regina safarina
                                   style: TextStyle(
                                     color: Colors.white, fontSize: 18, fontWeight: FontWeight.w500,
                                   ),
                                   ),
-                                  //MasterCard Logo
+                                  //MasterCard Logo dengan circle merah dan kuning
                                   Stack(
                                     children: [
                                       Container(
@@ -440,7 +440,8 @@ class LatihanCard extends StatelessWidget {
                                   Column( crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text('Expire Date',
-                                    style: TextStyle(color: Colors.white70, fontSize: 11),
+                                    style: TextStyle(
+                                      color: Colors.white70, fontSize: 11),
                                     ),
                                     Text('24/2000', //menampilkan teks tanggal
                                     style: TextStyle( 
@@ -459,10 +460,12 @@ class LatihanCard extends StatelessWidget {
                                       ),
                                     ],
                                   ),
-                                  Spacer(),
+                                  Spacer(), //untuk mendorong teks mastercard ke ujung kanan
                                   Text(
                                     'MasterCard',
-                                    style: TextStyle(color: Colors.white, fontSize: 14, fontWeight: FontWeight.w500),
+                                    style: TextStyle(
+                                      color: Colors.white, fontSize: 14, fontWeight: FontWeight.w500
+                                    ),
                                   ),
                                 ],
                               )
