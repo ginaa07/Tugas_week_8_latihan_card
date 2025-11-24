@@ -389,7 +389,12 @@ class LatihanCard extends StatelessWidget {
                             children: [
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.spaceBetween, //buat memisahkan widget di kiri dan kanan secara otomatis
-                              )
+                                children: [
+                                  Icon(Icons.credit_card, color: Colors.white70, size: 32), //untuk icon pertama
+                                  Icon(Icons.contactless, color: Colors.white70, size: 32), //ini untuk icon kedua di sebelah kanan 
+                                ],
+                              ),
+                              
                             ],
                           ),
                         ),
