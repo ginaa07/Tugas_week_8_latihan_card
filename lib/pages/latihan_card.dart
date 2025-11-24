@@ -429,9 +429,21 @@ class LatihanCard extends StatelessWidget {
                                           color: Color(0xFFF79E1B),
                                           shape: BoxShape.circle,
                                         ),
-                                      )
+                                      ),
                                     ],
-                                  )
+                                  ),
+                                ],
+                              ),
+                              SizedBox(height: 12),
+                              Row(
+                                children: [
+                                  Column( crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text('Expire Date',
+                                    style: TextStyle(color: Colors.white70, fontSize: 11),
+                                    ),
+                                  ],
+                                  ),
                                 ],
                               )
                             ],
