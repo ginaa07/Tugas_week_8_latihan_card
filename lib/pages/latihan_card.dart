@@ -382,6 +382,7 @@ class LatihanCard extends StatelessWidget {
                               end: Alignment.bottomRight, //gradasi dari pojok kanan bawah
                               colors: [Color(0xFF1E3A5F), Color(0xFF2D4A6F)], //buat baground gradasi untuk 2 warna
                             ),
+                            borderRadius: BorderRadius.circular(20), //membuar radius sudut 20 pixel pada pojok container
                           ),
                         ),
                       ),
