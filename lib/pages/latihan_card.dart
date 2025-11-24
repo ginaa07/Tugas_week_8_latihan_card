@@ -454,10 +454,16 @@ class LatihanCard extends StatelessWidget {
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
                                       Text('CVV', style: TextStyle(color: Colors.white70, fontSize: 11)),
-                                      Text('6986', style: TextStyle(color: Colors.white, fontSize: 14, fontWeight: FontWeight.w500),
+                                      Text('6986', style: TextStyle(color: Colors.white, fontSize: 14, fontWeight: FontWeight.w500
+                                      ),
                                       ),
                                     ],
-                                  )
+                                  ),
+                                  Spacer(),
+                                  Text(
+                                    'MasterCard',
+                                    style: TextStyle(color: Colors.white, fontSize: 14, fontWeight: FontWeight.w500),
+                                  ),
                                 ],
                               )
                             ],
