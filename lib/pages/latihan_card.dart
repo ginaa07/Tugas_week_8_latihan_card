@@ -362,7 +362,11 @@ class LatihanCard extends StatelessWidget {
                 child: Column(
                   children: [
                     Padding(padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20), //memberikan jarak untuk kanan kiri terhadap widget
-                    
+                    child: Card(
+                      elevation: 8,
+                      shadowColor: Colors.black38,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                    ),
                     )
                   ],
                 ),
