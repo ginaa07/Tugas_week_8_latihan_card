@@ -357,24 +357,16 @@ class LatihanCard extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 10), //buat Logo Master card
-              Card(
-                elevation: 2, //ketinggian bayangan
-                margin: EdgeInsets.zero,
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-                child: Padding(
-                  padding: const EdgeInsets.all(20.0), //memberi jarak bagian dalam isi card 
-                  child: Row(
+              Container(
+                padding: const EdgeInsets.all(20),
+                child: Column(
                   children: [
-                    Container(
-                      padding: const EdgeInsets.all(20),
-                      decoration: BoxDecoration(
-                        color: const Color(0xFF1F3C66), //buat dasar warna Card
-                        borderRadius: BorderRadius.circular(25),
-                      ),
-                      child: Icon(Icons.credit_card, color: Colors.white70, size: 32),
-                    )
-                  ], 
-                  ),),
+                    Padding(padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+                    child: Card(
+                      elevation: 8,
+                    ),)
+                  ],
+                ),
               )
             ],
           ),
